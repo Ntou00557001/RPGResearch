@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct RPGResearchApp: App {
+    let GameDataBase = PlayGameDataBase()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(GameDataBase)
         }
     }
 }

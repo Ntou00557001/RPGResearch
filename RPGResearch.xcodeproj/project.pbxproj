@@ -13,6 +13,12 @@
 		4BD754B7259DA572000E482B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD754B6259DA572000E482B /* Preview Assets.xcassets */; };
 		4BD754C2259DA572000E482B /* RPGResearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD754C1259DA572000E482B /* RPGResearchTests.swift */; };
 		4BD754CD259DA572000E482B /* RPGResearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD754CC259DA572000E482B /* RPGResearchUITests.swift */; };
+		4BD754DE259DA5E4000E482B /* CreatePlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD754DD259DA5E4000E482B /* CreatePlayersView.swift */; };
+		4BD754E4259DE084000E482B /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD754E3259DE084000E482B /* DataModel.swift */; };
+		4BD754EC259DE09D000E482B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD754EB259DE09D000E482B /* ViewModel.swift */; };
+		552E7FE425ADB2980085B0CF /* CreateGameWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552E7FE325ADB2980085B0CF /* CreateGameWorldView.swift */; };
+		552E7FE925ADB2B30085B0CF /* UseGameSaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552E7FE825ADB2B30085B0CF /* UseGameSaveView.swift */; };
+		552E7FEE25ADB2C20085B0CF /* UseGameModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552E7FED25ADB2C20085B0CF /* UseGameModelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		4BD754C8259DA572000E482B /* RPGResearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPGResearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD754CC259DA572000E482B /* RPGResearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGResearchUITests.swift; sourceTree = "<group>"; };
 		4BD754CE259DA572000E482B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD754DD259DA5E4000E482B /* CreatePlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlayersView.swift; sourceTree = "<group>"; };
+		4BD754E3259DE084000E482B /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		4BD754EB259DE09D000E482B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		552E7FE325ADB2980085B0CF /* CreateGameWorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGameWorldView.swift; sourceTree = "<group>"; };
+		552E7FE825ADB2B30085B0CF /* UseGameSaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseGameSaveView.swift; sourceTree = "<group>"; };
+		552E7FED25ADB2C20085B0CF /* UseGameModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseGameModelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,12 @@
 				4BD754B3259DA572000E482B /* Assets.xcassets */,
 				4BD754B8259DA572000E482B /* Info.plist */,
 				4BD754B5259DA572000E482B /* Preview Content */,
+				4BD754DD259DA5E4000E482B /* CreatePlayersView.swift */,
+				4BD754E3259DE084000E482B /* DataModel.swift */,
+				4BD754EB259DE09D000E482B /* ViewModel.swift */,
+				552E7FE325ADB2980085B0CF /* CreateGameWorldView.swift */,
+				552E7FE825ADB2B30085B0CF /* UseGameSaveView.swift */,
+				552E7FED25ADB2C20085B0CF /* UseGameModelView.swift */,
 			);
 			path = RPGResearch;
 			sourceTree = "<group>";
@@ -259,6 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD754EC259DE09D000E482B /* ViewModel.swift in Sources */,
+				552E7FE925ADB2B30085B0CF /* UseGameSaveView.swift in Sources */,
+				552E7FE425ADB2980085B0CF /* CreateGameWorldView.swift in Sources */,
+				4BD754DE259DA5E4000E482B /* CreatePlayersView.swift in Sources */,
+				552E7FEE25ADB2C20085B0CF /* UseGameModelView.swift in Sources */,
+				4BD754E4259DE084000E482B /* DataModel.swift in Sources */,
 				4BD754B2259DA570000E482B /* ContentView.swift in Sources */,
 				4BD754B0259DA570000E482B /* RPGResearchApp.swift in Sources */,
 			);
